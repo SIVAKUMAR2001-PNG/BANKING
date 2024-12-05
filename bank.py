@@ -15,8 +15,8 @@ Bank.resizable(False,False)
 connection=pymysql.connect(
     host="localhost",
     user="root",
-    password="kabi5016",
-    database="kabi"
+    password="1234",
+    database="siva"
     )
  
 my_database=connection.cursor()
@@ -37,8 +37,8 @@ def savedeposit():
     connection_params = {
         'host': 'localhost',
         'user': 'root',
-        'password': 'kabi5016',
-        'db': 'kabi'
+        'password': '1234',
+        'db': 'siva'
     }
 
     try:
@@ -143,8 +143,8 @@ def widraw():
         
         'host': 'localhost',
         'user': 'root',
-        'password': 'kabi5016',
-        'db': 'kabi'
+        'password': '1234',
+        'db': 'siva'
     }
     try:
                 # Open the connection
@@ -233,8 +233,8 @@ def showbalance():
     connection_params = {
         'host': 'localhost',
         'user': 'root',
-        'password': 'kabi5016',
-        'db': 'kabi'
+        'password': '1234',
+        'db': 'siva'
     }
     try:
             # Open the connection
@@ -296,8 +296,8 @@ def showenhistroy():
     connection_params = {
         'host': 'localhost',
         'user': 'root',
-        'password': 'kabi5016',
-        'db': 'kabi'
+        'password': '1234',
+        'db': 'siva'
     }
     try:
             # Open the connection
